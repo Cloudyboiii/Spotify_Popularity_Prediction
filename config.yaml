@@ -1,0 +1,51 @@
+# Data Configuration
+data:
+  path: "data/Spotify_data.csv"
+  test_size: 0.2
+  random_state: 42
+
+# Model Configuration
+models:
+  random_forest:
+    n_estimators: 200
+    max_depth: 20
+    min_samples_split: 5
+    random_state: 42
+  
+  xgboost:
+    n_estimators: 200
+    max_depth: 5
+    learning_rate: 0.1
+    random_state: 42
+
+# Feature Configuration
+features:
+  audio_features:
+    - Energy
+    - Valence
+    - Danceability
+    - Loudness
+    - Acousticness
+    - Tempo
+    - Speechiness
+    - Liveness
+    - Instrumentalness
+  
+  engineered_features:
+    - Release_Year
+    - Release_Month
+    - Days_Since_Release
+    - Energy_Danceability
+    - Loudness_Energy
+    - Valence_Danceability
+
+# Visualization Configuration
+visualization:
+  color_scheme:
+    primary: "#1DB954"    # Spotify green
+    secondary: "#191414"  # Spotify black
+    accent: "#1ed760"    # Spotify bright green
+  plot_style:
+    template: "plotly_white"
+    width: 800
+    height: 500

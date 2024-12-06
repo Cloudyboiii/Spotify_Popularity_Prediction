@@ -1,0 +1,259 @@
+/* Main container styling */
+.main {
+    padding: 2rem;
+    background-color: #0E1117;
+    color: #FAFAFA;
+}
+
+/* Header styling */
+h1 {
+    color: #1DB954;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: #FAFAFA;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+/* Sidebar styling */
+section[data-testid="stSidebar"] {
+    background-color: #191414;
+    padding: 2rem 1rem;
+}
+
+section[data-testid="stSidebar"] > div {
+    padding: 2rem 1rem;
+}
+
+section[data-testid="stSidebar"] label {
+    color: #FFFFFF;
+}
+
+/* Button styling */
+.stButton > button {
+    width: 100%;
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #1ed760;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Slider styling */
+.stSlider > div > div > div {
+    background-color: #1DB954;
+}
+
+.stSlider > div {
+    margin-bottom: 1.5rem;
+}
+
+/* Text input styling */
+.stTextInput > div > div > input {
+    background-color: #262730;
+    color: #FFFFFF;
+    border: 1px solid #404040;
+    border-radius: 0.5rem;
+}
+
+/* Select box styling */
+.stSelectbox > div > div {
+    background-color: #262730;
+    color: #FFFFFF;
+    border: 1px solid #404040;
+    border-radius: 0.5rem;
+}
+
+/* Metrics styling */
+div[data-testid="metric-container"] {
+    background-color: #262730;
+    border: 1px solid #404040;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+
+div[data-testid="metric-container"] label {
+    color: #1DB954;
+}
+
+/* DataFrame styling */
+.stDataFrame {
+    background-color: #262730;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+/* Form styling */
+form {
+    background-color: #262730;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #404040;
+}
+
+/* Checkbox styling */
+.stCheckbox {
+    background-color: #262730;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #404040;
+}
+
+.stCheckbox:hover {
+    background-color: #2E3138;
+}
+
+/* Plot container styling */
+div[data-testid="stPlotlyChart"] {
+    background-color: #262730;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #404040;
+}
+
+/* Error message styling */
+div.stAlert {
+    background-color: #3B1213;
+    color: #FF4B4B;
+    border: 1px solid #FF4B4B;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Success message styling */
+div.stSuccess {
+    background-color: #1E3D2F;
+    color: #1DB954;
+    border: 1px solid #1DB954;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Info message styling */
+div.stInfo {
+    background-color: #1E2B3D;
+    color: #4B8BFF;
+    border: 1px solid #4B8BFF;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Warning message styling */
+div.stWarning {
+    background-color: #3D351E;
+    color: #FFC14B;
+    border: 1px solid #FFC14B;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Tooltip styling */
+div[data-baseweb="tooltip"] {
+    background-color: #262730;
+    color: #FFFFFF;
+    border: 1px solid #404040;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+/* Tabs styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+    background-color: #262730;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    background-color: #1DB954;
+    color: #FFFFFF;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #404040;
+    text-align: center;
+    color: #808080;
+}
+
+/* Loading animation */
+.stProgress {
+    height: 2px;
+    background-color: #1DB954;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 1rem;
+    }
+    
+    form {
+        padding: 1rem;
+    }
+    
+    .stButton > button {
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #262730;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #404040;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4D4D4D;
+}
+
+/* Selection styling */
+::selection {
+    background: #1DB954;
+    color: #FFFFFF;
+}

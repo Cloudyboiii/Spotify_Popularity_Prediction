@@ -1,0 +1,33 @@
+# Core dependencies
+pandas
+numpy
+scikit-learn
+xgboost
+
+# Visualization
+plotly
+seaborn
+matplotlib
+
+# Machine Learning Extras
+shap
+joblib
+
+# Web App
+streamlit==1.40.2
+streamlit-option-menu
+streamlit-metrics
+
+# Development
+pytest
+black
+flake8
+isort
+
+# Documentation
+mkdocs
+mkdocs-material
+
+# Project packaging
+setuptools>=65.5.1
+wheel>=0.40.0

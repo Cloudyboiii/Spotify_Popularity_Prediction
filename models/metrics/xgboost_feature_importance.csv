@@ -1,0 +1,16 @@
+Feature,Importance
+Acousticness,4.3447523
+Days_Since_Release,1.6879634
+Danceability,1.0715463
+Liveness,0.90792316
+Valence_Danceability,0.78438175
+Speechiness,0.76864684
+Energy_Danceability,0.6236734
+Energy,0.60015917
+Valence,0.48852408
+Instrumentalness,0.45037484
+Tempo,0.37700024
+Loudness_Energy,0.29654568
+Loudness,0.28439745
+Release_Month,0.16265504
+Release_Year,0.092349574

@@ -1,0 +1,26 @@
+MAE: !!python/object/apply:numpy._core.multiarray.scalar
+- &id001 !!python/object/apply:numpy.dtype
+  args:
+  - f8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  6k1veuODE0A=
+MSE: !!python/object/apply:numpy._core.multiarray.scalar
+- *id001
+- !!binary |
+  Q3YR9XiMTEA=
+R2 Score: 0.14215993881225586
+RMSE: !!python/object/apply:numpy._core.multiarray.scalar
+- *id001
+- !!binary |
+  nx32vqI5HkA=
