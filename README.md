@@ -87,10 +87,6 @@ streamlit run app/app.py
 **Badal Gupta**
 - GitHub: [Cloudyboiii](https://github.com/Cloudyboiii)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🌟 Support
 
 If you found this helpful, please give it a ⭐!
