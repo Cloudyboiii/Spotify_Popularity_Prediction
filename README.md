@@ -25,16 +25,16 @@ graph TD
     H --> I
     I --> J[Final Output]
     
-    style A fill:#ffcccb,stroke:#ff0000
-    style B fill:#ffcccb,stroke:#ff0000
-    style C fill:#ffcccb,stroke:#ff0000
-    style D fill:#add8e6,stroke:#0000ff
-    style E fill:#add8e6,stroke:#0000ff
-    style F fill:#90ee90,stroke:#008000
-    style G fill:#90ee90,stroke:#008000
-    style H fill:#90ee90,stroke:#008000
-    style I fill:#ffe4b5,stroke:#ff8c00
-    style J fill:#ffe4b5,stroke:#ff8c00
+    style A fill:#ffeb3b,stroke:#fbc02d
+    style B fill:#64b5f6,stroke:#2196f3
+    style C fill:#64b5f6,stroke:#2196f3
+    style D fill:#ff7043,stroke:#f4511e
+    style E fill:#ff7043,stroke:#f4511e
+    style F fill:#81c784,stroke:#388e3c
+    style G fill:#81c784,stroke:#388e3c
+    style H fill:#81c784,stroke:#388e3c
+    style I fill:#ffcc80,stroke:#ff9800
+    style J fill:#ffcc80,stroke:#ff9800
 ```
 
 ### Process Breakdown:
