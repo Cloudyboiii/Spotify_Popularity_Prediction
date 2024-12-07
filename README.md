@@ -13,7 +13,7 @@ This project uses machine learning to predict a song's potential popularity on S
 
 ```mermaid
 graph TD
-    A[User Input] -->|Audio Features| B[Data Processing]
+    A[User  Input] -->|Audio Features| B[Data Processing]
     B --> C[Feature Engineering]
     C --> D[ML Models]
     D -->|Random Forest| E[Prediction]
@@ -25,16 +25,16 @@ graph TD
     H --> I
     I --> J[Final Output]
     
-    style A fill:#93c5fd,stroke:#2563eb
-    style B fill:#93c5fd,stroke:#2563eb
-    style C fill:#93c5fd,stroke:#2563eb
-    style D fill:#fca5a5,stroke:#dc2626
-    style E fill:#fca5a5,stroke:#dc2626
-    style F fill:#86efac,stroke:#16a34a
-    style G fill:#86efac,stroke:#16a34a
-    style H fill:#86efac,stroke:#16a34a
-    style I fill:#fdba74,stroke:#ea580c
-    style J fill:#fdba74,stroke:#ea580c
+    style A fill:#ffcccb,stroke:#ff0000
+    style B fill:#ffcccb,stroke:#ff0000
+    style C fill:#ffcccb,stroke:#ff0000
+    style D fill:#add8e6,stroke:#0000ff
+    style E fill:#add8e6,stroke:#0000ff
+    style F fill:#90ee90,stroke:#008000
+    style G fill:#90ee90,stroke:#008000
+    style H fill:#90ee90,stroke:#008000
+    style I fill:#ffe4b5,stroke:#ff8c00
+    style J fill:#ffe4b5,stroke:#ff8c00
 ```
 
 ### Process Breakdown:
