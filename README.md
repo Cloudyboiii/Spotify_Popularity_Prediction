@@ -140,10 +140,6 @@ streamlit run app/app.py
 - Project Link: [Spotify Popularity Predictor](https://github.com/Cloudyboiii/Spotify_Popularity_Prediction.git)
 - Live Demo: [Web Application](https://spotifypopularityprediction-s9jzck5sppfkddyg4vkvhh.streamlit.app/)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🌟 Support
 
 If you found this project helpful or interesting, please consider giving it a ⭐!
