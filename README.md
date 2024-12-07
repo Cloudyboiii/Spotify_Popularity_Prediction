@@ -153,4 +153,4 @@ If you found this project helpful or interesting, please consider giving it a тн
 For any questions, suggestions, or issues, feel free to reach out through:
 - GitHub Issues
 - GitHub Discussions
-- Email: [Your Email]
+- Email: badal.gupta0408@gmail.com
