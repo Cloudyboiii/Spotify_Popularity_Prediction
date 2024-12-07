@@ -4,9 +4,6 @@ A Machine Learning web application that predicts and analyzes song popularity on
 
 Try it out: [Live Demo](https://spotifypopularityprediction-s9jzck5sppfkddyg4vkvhh.streamlit.app/)
 
-<div align="center">
-  <img src="app/assets/app_preview.png" alt="App Preview" width="800"/>
-</div>
 
 ## 🎯 Overview
 
